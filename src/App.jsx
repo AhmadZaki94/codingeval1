@@ -8,6 +8,8 @@ import { Notebooks } from "./components/Notebooks";
 
 import { Inkpens } from "./components/Inkpens";
 
+import { Total } from "./components/Total";
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
       <Pens/>
       <Notebooks/>
       <Inkpens/>
+      <Total/>
     </div>
   );
 }

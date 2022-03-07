@@ -12,7 +12,7 @@ export function Notebooks() {
 
         <div className="items">
             
-            <span>Notebooks: { notebooks }  </span>
+            <span>Notebooksnote: { notebooks }  </span>
             <button className="addNotebook" onClick={ () => handleChange(1)}>+</button>
             <button className="remNotebook" onClick={ () => {
                 if(notebooks >= 1){

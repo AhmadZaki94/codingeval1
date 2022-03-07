@@ -9,11 +9,11 @@ export function Total() {
 
     const [ total, setTotal ] = useState(0);
 
-    const handleChange = (value) => {
-        setTotal( total + (Books + Pens + Notebooks + Inkpens));
+    const  handleChange = () => {
+        
     }
 
     return (
-        <div className="total"> { handleChange(1) }</div>
+        <div className="total"> { total }</div>
     )
 }
